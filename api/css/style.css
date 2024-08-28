@@ -1,0 +1,98 @@
+html {
+    /* Remove o padding e a margem padrão do HTML */
+    padding: 0;
+    margin: 0;
+    /* Define o box-sizing para incluir padding e borda no tamanho total dos elementos */
+    box-sizing: border-box;
+}
+
+/* Classe para o texto da tela de boas vindas */
+.sistema-text {
+    text-align: center; /* Centraliza horizontalmente */
+    font-size: 66px;
+    color: #afb3b7;
+    font-family: 'Nothing You Could Do', cursive;
+    display: flex; /* Ativa o flexbox */
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Define a altura da tela inteira */
+    /* Outros estilos que você desejar */
+}
+
+/* Classe para o texto do sistema */
+.custom-text {
+    /*text-align: center; /* Centraliza horizontalmente */
+    text-align: top;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    display: flex; /* Ativa o flexbox */
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza verticalmente */
+    /*height: 100vh; /* Define a altura da tela inteira */
+    /* Outros estilos que você desejar */
+}
+
+.background-06 {
+    /* Define um fundo com gradiente linear de 90 graus, do azul (#43a4f9) ao ciano (#1ef4ff) */
+    background: linear-gradient(90deg, #43a4f9, #1ef4ff);
+    /*background-image: url(../img/abstrato.jpeg);
+    /*o plano de fundo não se repete 
+    background-repeat: no-repeat;
+    /*COVER usa o plano de fundo da melhor maneira possivel na tela
+    background-size: cover;
+    background-position: center center;*/
+    background: rgb(13,31,35);
+    background: linear-gradient(0deg, rgba(13,31,35,1) 0%, rgba(19,39,44,1) 19%, rgba(175,179,183,1) 100%);
+}
+
+body {
+    /* Define a fonte do corpo do documento como Roboto */
+    font-family: 'Roboto', sans-serif;
+    /* Usa flexbox para organizar os elementos dentro do body */
+    display: flex;
+    flex-direction: column;
+    /* Alinha os itens no início do container */
+    justify-content: flex-start;    
+}
+
+.header ul li {
+    /* Remove os marcadores de lista padrão dos itens da lista */
+    list-style: none;
+}
+
+/* CLASSE CONTAINER */
+.container {
+    /* Usa flexbox para organizar os elementos dentro do container */
+    display: flex;
+    flex-direction: column;
+    /* Define a altura do container como 80% da altura da viewport */
+    height: 80vh;
+}
+
+.footer {
+    color: #afb3b7;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* Usa flexbox para organizar os elementos dentro do footer */
+    display: flex;
+    flex-direction: row;
+    /* Centraliza os itens horizontalmente e verticalmente */
+    justify-content: center;
+    align-items: center;
+    /* Define a altura do footer */
+    height: 60px;
+    /* Adiciona bordas superior e inferior brancas */
+    /* border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;     */
+}
+
+#autor {
+    /* Define o texto em negrito */
+    font-weight: italic;
+    /* Adiciona margem horizontal de 5px */
+    margin: 0 5px;
+}
+
+.chamada {
+    font-weight: italic;
+}

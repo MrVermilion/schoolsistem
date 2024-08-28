@@ -1,0 +1,59 @@
+/* Estilos para botões e links */
+.button, .button a {
+    background-color: #04AA6D; /* Cor de fundo verde */
+    color: #ffff; /* Cor do texto branco */
+    border-color: #04AA6D; /* Cor da borda verde */
+    width: 150px; /* Largura do botão */
+    height: 25px; /* Altura do botão */
+    margin: 5px; /* Margem ao redor do botão */
+}
+
+/* Efeito ao passar o mouse */
+.button:hover, .button a:hover {
+    cursor: pointer; /* Cursor de mãozinha ao passar o mouse */
+}
+
+/* Estilo dos links dentro dos botões */
+.button a {
+    text-decoration: none; /* Sem sublinhado nos links */
+}
+
+/* Botão "Excluir" */
+#acaoExcluir {
+    width: 80px; /* Largura específica para o botão "Excluir" */
+    background-color: tomato; /* Cor de fundo vermelha */
+    border-color: tomato; /* Cor da borda vermelha */
+    text-decoration: none; /* Sem sublinhado nos links */
+    padding: 7px; /* Espaçamento interno */
+    color: #ffff; /* Cor do texto branco */
+    border-radius: 5px; /* Cantos arredondados */
+}
+
+/* Efeito ao passar o mouse no botão "Excluir" */
+#acaoExcluir:hover {
+    background-color: rgba(255, 99, 71, 0.758); /* Vermelho mais claro */
+}
+
+/* Botão "Alterar" */
+#acaoAlterar {
+    box-shadow: 0px 1px 0px 0px #fff6af; /* Sombra suave */
+    background: linear-gradient(to bottom, #ffec64 5%, #ffab23 100%); /* Gradiente de amarelo para laranja */
+    background-color: #ffec64; /* Cor de fundo amarela */
+    border-radius: 6px; /* Cantos arredondados */
+    border: 1px solid #ffaa22; /* Borda laranja */
+    display: inline-block; /* Exibição em linha */
+    cursor: pointer; /* Cursor de mãozinha */
+    color: #333333; /* Cor do texto preto */
+    font-family: Arial; /* Fonte Arial */
+    font-size: 15px; /* Tamanho da fonte */
+    font-weight: bold; /* Texto em negrito */
+    padding: 4px 16px; /* Espaçamento interno */
+    text-decoration: none; /* Sem sublinhado nos links */
+    text-shadow: 0px 1px 0px #ffee66; /* Sombra no texto */
+}
+
+/* Efeito ao passar o mouse no botão "Alterar" */
+#acaoAlterar:hover {
+    background: linear-gradient(to bottom, #ffab23 5%, #ffec64 100%); /* Gradiente de laranja para amarelo */
+    background-color: #ffab23; /* Cor de fundo laranja */
+}

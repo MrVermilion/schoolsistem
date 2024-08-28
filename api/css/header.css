@@ -1,0 +1,41 @@
+.header ul {
+    /* DIZ que o cabeçalho deve ocupar 95% da largura da tela. */
+    width: 95%;
+    /* capacidade de se adaptar e se ajustar conforme necessário. */
+    display: flex;
+    /* ALINHA TUDO AO CENTRO */
+    justify-content: center;
+    /*  um espaço de 10 pixels entre os elementos */
+    gap:10px;
+}
+
+/* DESIGN DOS BOTÕES DO CABEÇALHO */
+.header ul li a {
+    /*  remove o sublinhado dos links. */
+    text-decoration: none;
+    /* deixa o texto todo em letras maiúsculas */
+    text-transform: uppercase;
+    /* deixa o texto em negrito */
+    font-weight: bold;
+    /* faz com que a transição (mudança) de cor seja suave (dura meio segundo). */
+    transition: all .5s ease-in-out;    
+    /* define a cor de fundo do botão */
+    background-color: #1e96ff91;
+    /* define a cor do texto */
+    color: aliceblue;
+    /* adiciona um espaço interno de 7 pixels ao redor do botão */
+    padding: 7px;
+    /* arredonda as bordas do botão */
+    border-radius: 5px;
+
+    
+}
+/* :hover significa que essas regras se aplicam quando o mouse está sobre o botão */
+.header ul li a:hover {
+    /* texto em negrito */
+    font-weight: bold;
+    /* muda a cor de fundo quando o mouse está sobre o botão. */
+    background-color: #1ef4ff91;
+    /*  muda a cor do texto */
+    color:black;
+}

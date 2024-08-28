@@ -1,0 +1,27 @@
+Explicação dos Comentários no arquivo HEADER.PHP:
+Pega a URL atual:
+$_SERVER['REQUEST_URI'] pega a URL que está sendo acessada no momento.
+Inicializa as variáveis:
+url_inicial e url_inicial_css são usadas para definir os caminhos dos links e arquivos CSS.
+Verifica a URL:
+strpos verifica se a URL contém /sistemaescolar/api/. Se sim, ajusta as variáveis para incluir api/.
+Imprime o HTML:
+echo imprime o HTML do cabeçalho, incluindo os links para os arquivos CSS e as páginas do sistema.
+
+************************************************
+
+Explicação dos Comentários no arquivo STYLE.CSS:
+html:
+Remove o padding e a margem padrão do HTML e define o box-sizing para incluir padding e borda no tamanho total dos elementos.
+background-06:
+Define um fundo com gradiente linear de 90 graus, do azul ao ciano.
+body:
+Define a fonte do corpo do documento como Roboto e usa flexbox para organizar os elementos dentro do body, alinhando-os no início do container.
+header ul li:
+Remove os marcadores de lista padrão dos itens da lista.
+container:
+Usa flexbox para organizar os elementos dentro do container e define a altura do container como 80% da altura da viewport.
+footer:
+Usa flexbox para organizar os elementos dentro do footer, centralizando-os horizontalmente e verticalmente, e adiciona bordas superior e inferior brancas.
+#autor:
+Define o texto em negrito e adiciona margem horizontal de 5px.
